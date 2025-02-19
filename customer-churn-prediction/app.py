@@ -42,8 +42,7 @@ Understanding churn helps businesses **retain customers** and improve services.
 """)
 
 # Load trained XGBoost model
-model_path = os.path.join(os.getcwd(), "xgb_churn_model.pkl")
-model = joblib.load(model_path) 
+model = joblib.load("customer-churn-prediction/xgb_churn_model.pkl") 
 
 # Define the Streamlit app
 st.title("📊 Customer Churn Prediction App")
