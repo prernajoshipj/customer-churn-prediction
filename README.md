@@ -3,7 +3,7 @@ A Streamlit-powered ML app that predicts telecom customer churn using XGBoost &a
 
 # 📊 Customer Churn Prediction App 🚀
 
-![Streamlit App](https://your-app-link-here.com)  
+![Streamlit App](https://customer-churn-prediction-ehnsxvpezgusoupzfhappvj.streamlit.app/)
 
 ## 🎯 Overview  
 This project predicts **customer churn** for a telecom company.  
@@ -17,7 +17,7 @@ Customer churn happens when customers **stop using a company's service**.
 ---
 
 ## 🎥 **Live Demo**  
-🚀 **Try the App Here:** [Click to Open](https://your-streamlit-app-link.com)  
+🚀 **Try the App Here:** [Click to Open](https://customer-churn-prediction-ehnsxvpezgusoupzfhappvj.streamlit.app/)
 
 ---
 
