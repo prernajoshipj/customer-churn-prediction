@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-
+import os
 import joblib  
 
 
@@ -42,7 +42,8 @@ Understanding churn helps businesses **retain customers** and improve services.
 """)
 
 # Load trained XGBoost model
-model = joblib.load("xgb_churn_model.pkl")  
+model_path = os.path.join(os.getcwd(), "xgb_churn_model.pkl")
+model = joblib.load(model_path) 
 
 # Define the Streamlit app
 st.title("📊 Customer Churn Prediction App")
